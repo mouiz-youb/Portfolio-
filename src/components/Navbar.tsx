@@ -21,11 +21,6 @@ function Navbar() {
 export default Navbar
 //   glass-dark
 
-const Menu =()=>{
-  return(
-    <div>Menu</div>
-  )
-}
 
 
 
