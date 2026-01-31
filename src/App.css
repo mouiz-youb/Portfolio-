@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+@theme  {
+  --shadow-profile:0px 0px 5px 2.5px skyblue;
+  --shadow-profile-hover:0px 0px 10px 5px skyblue;
+  /* breack points of responsive design  */
+  --breakpoint-mobile: 639px;
+  --breakpoint-tablet: 1023px;
+  --breakpoint-desktop: 1024px;
+}
+/* Custom 3D Utilities */
+@layer utilities {
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+}
