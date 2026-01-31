@@ -1,4 +1,5 @@
 import Hero from '../components/Hero'
+import MyServices from '../components/MyServices'
 import Technologies from '../components/Technologies'
 
 function Home() {
@@ -6,7 +7,7 @@ function Home() {
     <div className='w-full  flex justify-center itms-center flex-col '>
       <Hero />
       <Technologies/>
-         {/* <Hero /> */}
+         <MyServices />
     </div>
   )
 }
