@@ -9,8 +9,8 @@ interface LeaderShipCartProps {
 const  LeaderShipCart: React.FC<LeaderShipCartProps> = ({ positionName, clubName, data, imgSrc, desc }) => {
   return (
     <div className="w-full flex justify-center items-center flex-col md:flex-row border border-sky-50 rounded-2xl py-3 px-2 md:py-5 md:px-3 text-white  gap-5 ">
-       <div className="flex justify-center items-center w-33 h-24 rounded-full overflow-hidden  ">
-            <img src={imgSrc} alt={positionName} className=" w-full h-full bg-blue-100  object-contain" />
+       <div className="flex justify-center items-center w-33 h-24 rounded-2xl overflow-hidden  ">
+            <img src={imgSrc} alt={positionName} className=" w-full h-full bg-[#193355]  object-contain" />
        </div>
        <div className=" w-full flex justify-center items-center md:justify-start md:items-start flex-col px-3 text-center md:text-start  gap-3 md:gap-4   ">
             <p> {positionName} </p>
