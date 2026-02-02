@@ -6,9 +6,9 @@ function Hero2() {
         <div className='order-2 w-full h-full md:h-full md:w-2/7   md:order-1 text-white flex justify-center md:justify-center px-5 py-6 items-center flex-col gap-3 md:px-3'>
              <p className='text-2xl font-serif text-sky-300 w-full flex justify-center items-center '>Hey. I'm Abdelmouiz,</p>
              <div className=' w-full flex justify-center flex-col items-center gap-1 '>
-                <p className='text-7xl  md:text-6xl font-serif font-extralight italic text-white'>A full stack </p>
-                <p className='text-7xl font-italic italic md:text-6xl font-medium text-sky-200'>developer & </p>
-                <p className='text-7xl  md:text-6xl font-serif font-semibold italic text-white'>Ai engineer .</p>
+                <p className='text-6xl   font-serif font-extralight italic text-white'>A full stack </p>
+                <p className='text-6xl font-italic italic  font-medium text-sky-200'>developer & </p>
+                <p className='text-6xl   font-serif font-semibold italic text-white'>Ai engineer .</p>
              </div>
              <p className='text-[15px] text-slate-300 border-l-2 border-sky-400/50 pl-4'>
           "Evolving concepts into powerful platforms—seamless Full Stack ecosystems and AI-driven intelligence that connects, learns, and delivers excellence."
@@ -21,7 +21,7 @@ function Hero2() {
             </div>
         </div>
         {/* desc two */}
-        <div className='order-2 w-full h-full md:h-full md:w-2/7  text-white md:order-3 grid grid-cols-2 gap-10 p-16 md:flex md:justify-center md:items-center md:flex-col md:gap-5 '>
+        <div className='order-2 w-full h-full md:h-full md:w-2/7  text-white md:order-3 grid grid-cols-2 gap-10 p-5 md:flex md:justify-center md:items-center md:flex-col md:gap-5 '>
             <Stat value="10+" label="Projects Completed" />
             <Stat value="5M+" label="Lines of Code" />
             <Stat value="3" label="Years of Experience" />

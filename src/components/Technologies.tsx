@@ -17,8 +17,8 @@ function Technologies() {
   return (
     <div className="w-full bg-slate-900 py-10 overflow-hidden relative">
       {/* Label Section */}
-      <div className="flex justify-center mb-8">
-        <p className="text-xl font-bold text-white uppercase tracking-widest border-b-2 border-sky-500 pb-1">
+      <div className=" w-full flex justify-center items-center mb-8">
+        <p className="text-xl text-center font-bold text-white uppercase tracking-widest border-b-2 border-sky-500 pb-1">
           Technologies I can work with
         </p>
       </div>
