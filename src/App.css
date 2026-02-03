@@ -8,6 +8,8 @@
   --shadow-btn:0px 0px 5px 2.5px skyblue;
   --shadow-project:0px 5px 30px -5px skyblue;;
   --shadow-profile-mouiz:0px 0px 20px 10px skyblue;
+  --shadow-contact: 0px 5px 10px -2px skyblue;;
+
 
   /* breack points of responsive design  */
   --breakpoint-mobile: 639px;

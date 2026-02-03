@@ -1,7 +1,7 @@
 
-import { FaAward } from "react-icons/fa";
-import bg from "../image/bg2.png"
 import MyProjectCart from "./MyProjectCart";
+import { FaFolder } from "react-icons/fa";
+
 import "../index.css"
 function MyProjects() {
     const projectCartData =[
@@ -45,7 +45,7 @@ function MyProjects() {
   return (
     <div className="w-full flex justify-center items-center flex-col gap-5 p-3 bg-[#0A1739]  ">
         <div className="w-1/2 md:w-1/10   text-xs flex justify-center items-center flex-row gap-2 border border-sky-300 p-2 text-sky-400 rounded-2xl cursor-pointer shadow-btn transition duration-300">
-            <FaAward className=" text-2xl" />
+            <FaFolder className=" text-2xl" />
             <p className="  font-bold">PortFolio</p>
         </div>
         <header className="w-full text-3xl md:text-6xl font-serif italic gap-2 flex justify-center items-center text-white ">

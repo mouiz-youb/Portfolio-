@@ -5,6 +5,7 @@ import Hero2 from '../components/Hero2'
 import Leadership from '../components/Leadership'
 
 import MyProjects from '../components/MyProjects'
+import MyContacts from '../components/MyContacts'
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <Technologies/>
       <Leadership/>
       <MyProjects/>
+      <MyContacts/>
       {/* <MyServices /> */}
     </div>
   )

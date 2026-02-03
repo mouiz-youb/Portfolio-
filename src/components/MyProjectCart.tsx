@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
-import { FaAward } from "react-icons/fa";
+import { FiGithub } from "react-icons/fi";
+import { IoLinkSharp } from "react-icons/io5";
 interface MyProjectProps {
     projectName :string 
     projectDesc :string 
@@ -19,8 +20,8 @@ const  MyProjectCart:React.FC<MyProjectProps>=({projectDesc , projectName , imgS
             <div className="w-full flex justify-between items-center flex-row  ">
                 <p className="text-white md:text-3xl group-hover:text-sky-400 transition-colors "> {projectName} </p>
                 <div className="flex justify-center items-center flex-row gap-3 ">
-                    <LinkIcon icon ={<FaAward />} link ={githubRepoLink}/>
-                    <LinkIcon icon ={<FaAward />} link ={websiteLink}/>
+                    <LinkIcon icon ={<FiGithub className="text-xl text-sky-500"/>} link ={githubRepoLink}/>
+                    <LinkIcon icon ={<IoLinkSharp  className="text-xl text-sky-500"/>} link ={websiteLink}/>
                 </div>
             </div>
             <p className="text-slate-500 text-xs md:text-[15px]"> {projectDesc} </p>
