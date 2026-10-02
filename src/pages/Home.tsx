@@ -1,13 +1,22 @@
-// import mouiz from '../image/3azo.jpg'
-import mouiz from '../image/mouiz.jpg'
-// import ProjectCard from "../components/Test" 
-// import ThreeDSlider from "../components/Test"
-import "../index.css"
+// import Hero from '../components/Hero'
+import MyServices from '../components/MyServices'
+import Technologies from '../components/Technologies'
+import Hero2 from '../components/Hero2'
+import Leadership from '../components/Leadership'
+
+import MyProjects from '../components/MyProjects'
+import MyContacts from '../components/MyContacts'
+
 function Home() {
   return (
-    <div className='w-full flex justify-center items-center border border-black flex-col '>
-        {/* <p>hello</p> */}
-        <img src={mouiz} alt="mouiz" className='w-[50%] h-135 rounded-b-full object-contain'/>
+    <div className='w-full  flex justify-center items-center flex-col '>
+      {/* <Hero /> */}
+      <Hero2/>
+      <Technologies/>
+      <Leadership/>
+      <MyProjects/>
+      <MyContacts/>
+      {/* <MyServices /> */}
     </div>
   )
 }

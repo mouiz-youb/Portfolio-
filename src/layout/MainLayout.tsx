@@ -3,9 +3,9 @@ import Navbar from '../components/Navbar'
 
 function MainLayout() {
   return (
-    <div className='w-screen flex justify-center items-center flex-col gap-3 relative'>
+    <div className='realtive w-screen flex  flex-col gap-3 relative '>
         <Navbar/>
-        <main className=' w-full screen flex justify-center items-center   mt-10'>
+        <main className=' w-full   flex justify-center overflow-y-scroll items-center  border   '>
             <Outlet/>
         </main>
     </div>
@@ -13,3 +13,14 @@ function MainLayout() {
 }
 
 export default MainLayout
+
+
+
+
+
+
+
+
+
+
+
